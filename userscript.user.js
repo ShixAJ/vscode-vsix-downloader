@@ -5,6 +5,8 @@
 // @description  Download VSIX files directly from the Visual Studio Marketplace.
 // @author       Shix
 // @match        https://marketplace.visualstudio.com/items*
+// @updateURL    https://raw.githubusercontent.com/ShixAJ/vscode-vsix-downloader/master/userscript.user.js
+// @downloadURL  https://raw.githubusercontent.com/ShixAJ/vscode-vsix-downloader/master/userscript.user.js
 // @grant        none
 // ==/UserScript==
 

@@ -39,14 +39,12 @@ Firefox uses Manifest V2, so you need to swap the manifest files before loading:
 
 ### Tampermonkey / Greasemonkey (Userscript)
 
-If you don't want to install a full browser extension, you can run this purely as a Userscript!
+If you don't want to install a full browser extension, you can run this purely as a Userscript! It will also automatically detect and install updates when new versions are pushed to this repository.
 
 1. Install a userscript manager like **Tampermonkey** or **Violentmonkey**.
-2. Open the `userscript.user.js` file in this repository.
-3. Copy its contents.
-4. Open your userscript manager dashboard and click **Add a new script**.
-5. Paste the contents and save.
-6. The script will automatically run on Visual Studio Marketplace pages.
+2. Click **[this link](https://raw.githubusercontent.com/ShixAJ/vscode-vsix-downloader/master/userscript.user.js)** to view the raw userscript.
+3. Your userscript manager will automatically detect the metadata headers and prompt you to install it. Click **Install**.
+4. The script will now automatically run on Visual Studio Marketplace pages and check for updates periodically.
 
 ## How to Use
 
