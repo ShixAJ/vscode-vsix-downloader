@@ -14,14 +14,28 @@ This extension adds a convenient "Download VSIX" button directly to Visual Studi
 
 ## How to Install (Developer Mode)
 
+### Chrome, Edge, and Brave (Chromium)
+
 If you have downloaded or cloned this repository:
 
 1. Open Google Chrome, Edge, or Brave.
-2. In the address bar, go to chrome://extensions/ (or edge://extensions/).
+2. In the address bar, go to `chrome://extensions/` (or `edge://extensions/`).
 3. Turn on the **Developer mode** toggle in the top-right corner.
 4. Click the **Load unpacked** button in the top-left area.
-5. Select this folder (containing the manifest.json).
+5. Select this folder (containing the `manifest.json`).
 6. The extension should now be active and visible in your extensions list.
+
+### Mozilla Firefox
+
+Firefox uses Manifest V2, so you need to swap the manifest files before loading:
+
+1. Download or clone this repository.
+2. Rename `manifest.json` to `manifest-chrome.json` (or delete it).
+3. Rename `manifest-firefox.json` to `manifest.json`.
+4. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
+5. Click **Load Temporary Add-on...**
+6. Select the `manifest.json` file inside the extension folder.
+7. The extension should now be active.
 
 ## How to Use
 
