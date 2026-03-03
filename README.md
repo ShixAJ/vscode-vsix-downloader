@@ -37,6 +37,17 @@ Firefox uses Manifest V2, so you need to swap the manifest files before loading:
 6. Select the `manifest.json` file inside the extension folder.
 7. The extension should now be active.
 
+### Tampermonkey / Greasemonkey (Userscript)
+
+If you don't want to install a full browser extension, you can run this purely as a Userscript!
+
+1. Install a userscript manager like **Tampermonkey** or **Violentmonkey**.
+2. Open the `userscript.user.js` file in this repository.
+3. Copy its contents.
+4. Open your userscript manager dashboard and click **Add a new script**.
+5. Paste the contents and save.
+6. The script will automatically run on Visual Studio Marketplace pages.
+
 ## How to Use
 
 1. Navigate to any extension page on the Visual Studio Code Marketplace.
